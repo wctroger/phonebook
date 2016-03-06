@@ -22,6 +22,7 @@ typedef struct __PHONE_BOOK_ENTRY {
     char lastName[MAX_LAST_NAME_SIZE];
     info *detail;
     struct __PHONE_BOOK_ENTRY *pNext;
+    struct __PHONE_BOOK_ENTRY *pPgdn;
 } entry;
 
 

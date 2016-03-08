@@ -1,6 +1,6 @@
 #include <stdlib.h>
 
-#include "phonebook_opt.h"
+#include "phonebook_opt_hash.h"
 
 entry *findName(char lastname[], entry *pHead)
 {   

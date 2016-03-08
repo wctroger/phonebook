@@ -5,7 +5,7 @@
 
 /* TODO: After modifying the original version, uncomment the following
  * line to set OPT properly */
-#define OPT 1
+#define OPT_HASH 1
 typedef struct __useless_info {
     char firstName[16];
     char email[16];
@@ -22,6 +22,7 @@ typedef struct __PHONE_BOOK_ENTRY {
     char lastName[MAX_LAST_NAME_SIZE];
     info *detail;
     struct __PHONE_BOOK_ENTRY *pNext;
+    struct __PHONE_BOOK_ENTRY *pPgdn;
 } entry;
 
 

@@ -65,13 +65,13 @@ int main(int argc, char *argv[])
 
     e = pHead;
 
-    /* the givn last name to find */
-    char input[MAX_LAST_NAME_SIZE] = "zyxel";
+    /* the givn last name to find *//*zyxel*/
+    char input[MAX_LAST_NAME_SIZE] = "zabell";
     e = pHead;
 
     assert(findName(input, e) &&
            "Did you implement findName() in " IMPL "?");
-    assert(0 == strcmp(findName(input, e)->lastName, "zyxel"));
+    assert(0 == strcmp(findName(input, e)->lastName, "zabell"));
 
 #if defined(__GNUC__)
     __builtin___clear_cache((char *) pHead, (char *) pHead + sizeof(entry));
